@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    background-image: url("images/81f3ff974d82520780078ba1cfbd453a1583259680.avif");
+    width: 100%;
+    height: 65vh;
+    /* padding: 25px 120px; */
+}
+
+/*---------------------------- nav-bar -------------------*/
+
+header p.GetTheApp {
+    color: white;
+    font-size: 13px;
+    padding: 5% 20%;
+
+}
+header p.GetTheApp i{
+    margin-right: 5px;
+}
+header p.GetTheApp a{
+    color: white;
+    text-decoration: none;
+}
+header nav{
+    float: right;
+}
+header .row .col-sm-8 .navbar-collapse{
+    padding: 0px 120px;
+}
+header .row .col-sm-8 .navbar-collapse .nav-item .nav-link{
+    color: white;
+    margin-right: 30px;
+}
+header .row .col-sm-8 .navbar-collapse .nav-item .nav-link:hover{
+    color: white;
+}
+header .row .col-sm-8 .navbar-collapse .profile img {
+    display: flex;
+}
+header .row .col-sm-8 .navbar-collapse .profile .name{
+    color: white;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+header .row .col-sm-8 .navbar-collapse .profile .name i{
+    margin-right: 3px;
+}
+
+/*---------------------------- main -------------------*/
+
+header .main {
+    text-align: center;
+}
+
+header .main img.zomato-logo{
+    width: 20%;
+    margin-top: 50px;
+}
+
+header .main p{
+    color: white;
+    margin-top: 30px;
+    font-size: 250%;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+header .main .search-bar .vl{
+    height: 55%;
+    width: 1px;
+    border: .5px solid black;
+    opacity: 0.5;
+}
+header .main .search-bar{
+    background: white;
+    width: 60%;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+header .main .search-bar .place{
+    border: none;
+    width: 35%;
+    border-radius: 5px;
+    padding-left:10px ;
+    height: 100%;
+    outline: none;
+}
+header .main .search-bar i.fa-caret-down{
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    overflow-x: visible;
+    /* transform: rotate(180deg); */
+}
+header .main .search-bar i.fa-location-dot{
+    color: rgb(224, 108, 108);
+    font-size: 23px;
+    margin-left: 10px;
+    overflow-x: visible;
+}
+header .main .search-bar .Restaurant{
+    border: none;
+    height: 100%;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding-left:10px ;
+}
+header .main .search-bar i.fa-magnifying-glass{
+    color: rgba(169, 164, 164, 0.801);
+    font-size: 23px;
+    margin-left: 10px;
+    overflow-x: visible;
+}
+
+/*---------------------------- services -------------------*/
+
+section.services{
+    text-align: center;
+    margin-top: 50px;
+}
+section.services .row .col-sm a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+section.services .row .col-sm .card{
+    border-radius: 13px;
+    margin-top: 20px;
+}
+/* section.services .row .col-sm .card:hover{
+
+} */
+section.services .row .col-sm .card img.card-img-top{
+    height: 200px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    
+}
+
+/*---------------------------- Collections -------------------*/
+
+/* card-body   card-title  card-text */
+
+section.Collections {
+    margin-top: 100px;
+}
+section.Collections .card{
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+section.Collections .card .card-img-top{
+    position: absolute;
+}
+section.Collections .head{
+    font-size: 250%;
+}
+section.Collections .head-desc, section.Collections .head-desc-a{
+    font-size: 110%;
+    font-weight: 200;
+    display: flex;
+}
+section.Collections .head-desc-a a{
+    color: rgb(226, 73, 73);
+    align-items: center;
+}
+section.Collections .head-desc-a a i{
+    margin-left: 5px;
+}
+section.Collections a{
+    text-decoration: none;
+    color: #000;
+}
+section.Collections a .card .card-body{
+    bottom: 0;
+    position: absolute;
+    /* background-image: linear-gradient(red, yellow,0.5); */
+    width: 100%;
+}
+section.Collections a .card .card-body .card-title,section.Collections a .card .card-body .card-text{
+    position: relative;
+    color: white;
+    /* bottom: 10px; */
+}
+
+/*---------------------------- localities -------------------*/
+
+section.localities{
+    margin-top: 70px;
+}
+section.localities h2{
+    font-size: 270%;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+section.localities a{
+    color: #000;
+    text-decoration: none;
+}
+section.localities a .card{
+    margin-top: 30px;
+    height: 90px;
+    padding: 0;
+    overflow-y: hidden;
+    border-radius: 10px;
+
+}
+section.localities a .card .card-body{
+    overflow: hidden;
+    
+}
+section.localities .card .card-body h4{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+section.localities .card .card-body p{
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    position: relative;
+}
+section.localities .card .card-body i{
+    float: right;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*---------------------------- Get-the-Zomato-app -------------------*/
+
+section.Get-the-Zomato-app{
+    margin-top: 100px;
+    height: 100%;
+    background: rgba(253, 244, 234, 0.678);
+    padding-left: 20px;
+}
+/* section.Get-the-Zomato-app .Zomato-app-img{
+
+} */
+section.Get-the-Zomato-app .Zomato-app-img img{
+    width: 340px;
+    float: right;
+    margin: 20% 10% 0 0;
+}
+section.Get-the-Zomato-app .Zomato-app-details h2{
+    margin-top: 70px;
+    font-size: 250%;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.Get-the-Zomato-app .Zomato-app-details p{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.Get-the-Zomato-app .Zomato-app-details form span {
+    font-size:110%;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+section.Get-the-Zomato-app .Zomato-app-details form input[type=radio]{
+    margin-right:10px;
+}
+section.Get-the-Zomato-app .Zomato-app-details form input[type=radio]#Phone{
+    margin-left: 70px;
+}
+section.Get-the-Zomato-app .Zomato-app-details form input[type=text]{
+    width: 40%;
+    height: 45px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    /* border-width: .5; */
+    border-radius: 7px;
+    border-color: rgb(182, 182, 182);
+    outline-color: rgb(226, 73, 73);
+}
+section.Get-the-Zomato-app .Zomato-app-details form button{
+    background: rgb(226, 73, 73);
+    border: none;
+    padding:  10px 12px;
+    border-radius: 7px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    outline: none;
+}
+section.Get-the-Zomato-app .Zomato-app-details .Download_app{
+    margin-top: 40px;
+    color: rgb(130, 130, 130);
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.Get-the-Zomato-app .Zomato-app-details img{
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/*---------------------------- Explore -------------------*/
+
+section.Explore{
+    margin-top: 40px;
+}
+section.Explore h3{
+    font-size: 40px;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+}
+section.Explore .Explore-content{
+    margin-top: 30px;
+}
+section.Explore .Explore-content button{
+    width: 100%;
+    text-align: left;
+    height: 60px;
+    margin-top: 25px;
+    background: #fff;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+    outline-color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+section.Explore .Explore-content button i{
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+section.Explore .Explore-content .collapse .card{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-cuisines-list li ,
+section.Explore .Explore-content .collapse .card ul.Explore-card-restaurant-types-list li{
+    display: inline-block;
+    margin-left: 10px;
+    list-style: disc;
+    color: rgb(148, 148, 148);
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-restaurant-list li{
+    display: inline-block;
+    margin-right: 100px;
+    color: rgb(148, 148, 148);
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-city-list li{
+    color: rgb(148, 148, 148);
+    display: inline-block;
+    margin-right: 100px;
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-city-list li a{
+    text-decoration: underline;
+    color: #000;
+}
+/*---------------------------- footer -------------------*/
+
+footer{
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    padding: 0 10%;
+    background: rgb(245, 243, 243);
+
+}
+footer .footer-logo{
+    width: 26%;
+    margin-top: 20px;
+}
+footer .footer-list-row{
+    margin-top: 50px;
+}
+footer .footer-list-row h5{
+    font-size: 15px;
+    letter-spacing: .7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+footer .footer-list-row ul.footer-list{
+    color: rgb(118, 118, 118);
+    font-size: 14px;
+}
+footer .footer-list-row ul.footer-list li{
+    margin-top: 6px;
+}
+footer .footer-list-row p{
+    color: rgb(118, 118, 118);
+    font-size: 14px;
+    margin-top: 8px;
+}
+footer .footer-list-row ul.footer-social-links li{
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+footer .footer-list-row img{
+    width: 140px;
+    margin-bottom: 10px;
+}
+footer p.footer-description{
+    /* text-align: center; */
+    font-size: 14px;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
